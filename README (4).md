@@ -1,3 +1,4 @@
+
 # WDE05 Colorful Responsive Fun with Media Queries
 
 ### Colorful Responsive Fun
@@ -44,14 +45,14 @@ You are now ready to begin coding your colorful responsive boxes!
 </html>
 ```
 
-3. **Create a header** inside the `<body>` tags with an `<h1>` element. Give it a class of `title` and set the content to "Colorful Responsive Fun".
+3. **Create a header** inside the `<body>` tag with an `<h1>` element. Give it a class of `title` and set the content to "Colorful Responsive Fun".
 
 ```html
 <body>
   <h1 class="title">Colorful Responsive Fun</h1>
 ```
 
-4. **Set up the container** for the boxes by creating a `<div>` with the class `container` inside the `<body>` tags after the `<h1>` headler tag. Inside this container, create nine more `<div>` elements, each representing a box. Assign appropriate classes and labels to each box as shown below:
+4. **Set up the container** for the boxes by creating a `<div>` with the class `container`. Inside this container, create nine `<div>` elements, each representing a box. Assign appropriate classes and labels to each box as shown below:
 
 ```html
   <div class="container">
@@ -86,9 +87,8 @@ You are now ready to begin coding your colorful responsive boxes!
 </body>
 ```
 
-### Initial Testing
+5. **Close the HTML tags** to complete the `index.html` structure.
 
-Now, open the `index.html` file in your browser. 
-You should see a basic layout with 9 text elements representing the boxes which we will set up and style with CSS in the next step.
-
-<img src="./assets/images/example2.png" alt="Screenshot of the finished index.html" width="300" height="300">
+```html
+</html>
+```
