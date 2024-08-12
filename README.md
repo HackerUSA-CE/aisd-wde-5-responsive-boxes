@@ -96,7 +96,7 @@ You should see a basic layout with 9 text elements representing the boxes which 
 
 
 ## Build the CSS Structure 
-Place each block of code in the `styles.css` file roght after the next in order
+Place each block of code in the `styles.css` file right after the next one in order as instructed below
 
 1. **Root Colors and Variables:**
 
@@ -206,7 +206,7 @@ body {
 
 6. **Special Box Styles:**
 
-* The `large-vertical` and `large-horizontal` classes are used to create boxes that span multiple rows or columns.
+* The `large-vertical`, `large-horizontal` as well as the `.box7` classes are used to create boxes that span multiple rows or columns.
 * These styles ensure that certain boxes take up more space in the grid, adding variety to the layout.
 
 ```css
@@ -221,6 +221,11 @@ body {
     grid-column: span 3;
     padding: 20px;
 }
+
+.box7 {
+    grid-column: span 3;
+}
+
 ```
 
 
