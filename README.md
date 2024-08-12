@@ -335,6 +335,9 @@ body {
     }
 }
 ```
+
 * Now test your final styled project to ensure that everything is working as expected.
+
+## Conclusion
 
 * By following these steps, you'll create a responsive and visually appealing layout that adjusts based on the device's screen size. This exercise demonstrates the power of CSS Grid and media queries in crafting adaptive web designs.
