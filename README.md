@@ -176,7 +176,7 @@ body {
 
 ```css
 .box {
-    color: var(--text-color);
+  color: var(--text-color);
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -188,7 +188,8 @@ body {
     border: 2px solid var(--border-color);
 }
 ```
-* Each box has a unique background color, using the variables defined in the `:root`.
+
+  * Each box has a unique background color, using the variables defined in the `:root`.
 
 ```css
 .box1 { background-color: var(--color1); }
