@@ -86,6 +86,9 @@ You are now ready to begin coding your colorful responsive boxes!
 ```html
 </html>
 ```
+
+### Initial Testing
+
 Now, open the `index.html` file in your browser. 
 You should see a basic layout with 9 text elements representing the boxes which we will set up and style with CSS in the next step.
 
