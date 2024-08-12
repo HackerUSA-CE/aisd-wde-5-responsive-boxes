@@ -100,6 +100,7 @@ You should see a basic layout with 9 text elements representing the boxes which 
 1. **Root Colors and Variables:**
 
 * At the top of the `styles.css` file, you'll see the `:root` selector. This is where CSS variables are defined. These variables store color values that are used throughout the styles.
+* Each variable is prefixed with `--`, and you can use these variables later in your CSS by referring to them with `var(--variable-name)`.
 
 ```css
 :root {
@@ -116,7 +117,6 @@ You should see a basic layout with 9 text elements representing the boxes which 
     --border-color: #ffffff;
 }
 ```
-* Each variable is prefixed with `--`, and you can use these variables later in your CSS by referring to them with `var(--variable-name)`.
 
 2. **Body Styles:**
 
