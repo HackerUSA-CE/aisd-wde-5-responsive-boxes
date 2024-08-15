@@ -250,7 +250,7 @@ The `box:hover` style adds a hover effect to all boxes and adds interactivity to
 
 
 
-### Step 3: Media Queries
+### Media Queries
 
 Media queries are used to make the layout responsive, adjusting the grid and box sizes based on the screen width.
 
@@ -353,12 +353,10 @@ For screens smaller than 868px, this media query switches the layout to a flexbo
 **Explanation**
 This media query is designed for mobile devices with screens smaller than 480px. It retains the flexbox layout, further reduces font size, and adds more padding inside the boxes to maintain a clean, readable appearance.
 
-* Now test your final styled project to ensure that everything is working as expected.
 
-## Conclusion
+# Testing
 
-* By following these steps, you'll create a responsive and visually appealing layout that adjusts based on the device's screen size. This exercise demonstrates the power of CSS Grid and media queries in crafting adaptive web designs.
-
+* Resize the Browser Window: Gradually resize your browser window from full screen down to a smaller width, observing how the layout changes at different breakpoints (1424px, 868px, and 480px). The content should adjust accordingly, with the grid layout transforming into a vertical stack on smaller screens.
 
 ---
 © All rights reserved to ThriveDX
