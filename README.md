@@ -116,9 +116,6 @@ Place each block of code in the `styles.css` file right after the next one in or
 
 1. **Root Colors and Variables:**
 
-* At the top of the `styles.css` file, you'll see the `:root` selector. This is where CSS variables are defined. These variables store color values that are used throughout the styles.
-* Each variable is prefixed with `--`, and you can use these variables later in your CSS by referring to them with `var(--variable-name)`.
-
 ```css
 :root {
     --color1: #FF6F61;  /* Vibrant coral color */
@@ -136,7 +133,7 @@ Place each block of code in the `styles.css` file right after the next one in or
 ```
 
 **Explanation:**
-This block of code defines a set of CSS variables using the `:root` pseudo-class, which applies globally across the document. The variables are assigned specific color values, making it easier to maintain and update the color scheme of your project. For instance, you can change the primary color throughout your styles by updating the variable here.
+At the top of the `styles.css` file, you'll see the `:root` selector. This is where CSS variables are defined. These variables store color values that are used throughout the styles. Each variable is prefixed with `--`, and you can use these variables later in your CSS by referring to them with `var(--variable-name)`.
 
 ##
 
