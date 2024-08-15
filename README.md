@@ -46,6 +46,8 @@ You are now ready to begin coding your colorful responsive boxes!
 **Explanation:**
 This code sets up the basic HTML structure needed for the project, including the `DOCTYPE` declaration, language attribute, meta tags, and linking to the external CSS file.
 
+##
+
 3. **Create a header** inside the `<body>` tags with an `<h1>` element. Give it a class of `title` and set the content to "Colorful Responsive Fun".
 
 ```html
@@ -58,6 +60,8 @@ This code sets up the basic HTML structure needed for the project, including the
 ```
 **Explanation:**
 This code adds a header element to the body of the HTML document with a class `title` for further styling in CSS. The content "Colorful Responsive Fun" will appear as the main heading on the webpage.
+
+##
 
 4. **Set up the container** for the boxes by creating a `<div>` with the class `container`. Place this code inside the `<body>` tags after the `<h1>` header tag. Inside this container, create nine more `<div>` elements, each representing a box. Assign appropriate classes and labels to each box as shown below:
 
@@ -95,6 +99,8 @@ This code adds a header element to the body of the HTML document with a class `t
 **Explanation:**
 This code block creates a container div that holds nine other divs, each representing a box. The boxes are given classes and `aria-labels` for identification and accessibility. This structure sets the stage for a grid-like layout that will be styled using CSS.
 
+##
+
 ### Initial Testing
 
 Now, open the `index.html` file in your browser. 
@@ -105,6 +111,8 @@ You should see a basic layout with 9 text elements representing the boxes which 
 
 ## Build the CSS Structure 
 Place each block of code in the `styles.css` file right after the next one in order as instructed below
+
+##
 
 1. **Root Colors and Variables:**
 
@@ -130,6 +138,8 @@ Place each block of code in the `styles.css` file right after the next one in or
 **Explanation:**
 This block of code defines a set of CSS variables using the `:root` pseudo-class, which applies globally across the document. The variables are assigned specific color values, making it easier to maintain and update the color scheme of your project. For instance, you can change the primary color throughout your styles by updating the variable here.
 
+##
+
 2. **Applying Body Styles:**
 
 ```css
@@ -149,6 +159,8 @@ body {
 **Explanation:**
 The `body` styles set the overall layout and appearance of the page, including background color, font, and alignment and ensure that the entire page content is centered within the viewport. The Flexbox layout (`display: flex;`) is used to align and center the elements both horizontally and vertically. This styling approach creates a balanced and visually appealing layout. The neutral background color provides a subtle backdrop for the content.
 
+##
+
 3. **Styling the Header:**
 
 ```css
@@ -162,6 +174,8 @@ The `body` styles set the overall layout and appearance of the page, including b
 
 **Explanation:**
 This CSS class `.title` applies specific styling to the main heading of the page. The use of `var(--text-color)` ensures that the heading color is consistent with the overall theme, utilizing the white color defined in the root variables. The large font size makes the title stand out, and the text alignment centers it within the page, creating a strong visual impact.
+
+##
 
 4. **Setting Up the Grid Container:**
 
@@ -214,6 +228,8 @@ The `container` class creates a grid layout to hold all the boxes. This CSS also
 **Explanation:**
 The `.box` class applies various styles to each grid box, including padding, rounded corners, and a hover effect. Each box also uses a unique background color, defined by the variables in the `:root` selector, ensuring consistency in the design.
 
+##
+
 6. **Special Box Styles:**
 
 ```css
@@ -237,6 +253,8 @@ The `.box` class applies various styles to each grid box, including padding, rou
 **Explanation:**
 The `large-vertical`, `large-horizontal`, and `.box7` classes are used to create boxes that span multiple rows or columns. These special classes modify the grid behavior for specific boxes, allowing them to span multiple rows or columns. This creates a dynamic and interesting layout by breaking the uniformity of the grid structure, drawing attention to certain elements.
 
+##
+
 7. **Hover Effect:**
 
 ```css
@@ -248,7 +266,7 @@ The `large-vertical`, `large-horizontal`, and `.box7` classes are used to create
 **Explanation:**
 The `box:hover` style adds a hover effect to all boxes and adds interactivity to the grid boxes, scaling them up slightly when hovered. This provides feedback to the user, enhancing the overall user experience.
 
-
+##
 
 ### Media Queries
 
@@ -287,6 +305,8 @@ Media queries are used to make the layout responsive, adjusting the grid and box
 **Explanation**
 This media query adjusts the layout for screens smaller than 1424px, reducing the grid to two columns and five rows. It also ensures that boxes span appropriately within the reduced layout, and slightly decreases the font size for better readability on smaller screens.
 
+##
+
 2. **Second Media Query (max-width: 868px):**
 
 ```css
@@ -315,6 +335,8 @@ This media query adjusts the layout for screens smaller than 1424px, reducing th
 ```
 **Explanation**
 For screens smaller than 868px, this media query switches the layout to a flexbox-based vertical stack. It orders the boxes to ensure a logical flow when stacked and further reduces the font size to maintain readability.
+
+##
 
 3. **Third Media Query (max-width: 480px):**
 
@@ -353,6 +375,7 @@ For screens smaller than 868px, this media query switches the layout to a flexbo
 **Explanation**
 This media query is designed for mobile devices with screens smaller than 480px. It retains the flexbox layout, further reduces font size, and adds more padding inside the boxes to maintain a clean, readable appearance.
 
+##
 
 # Testing
 
