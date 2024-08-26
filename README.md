@@ -120,7 +120,7 @@ You should see a basic layout with 9 text elements representing the boxes as see
 
 ### We will now style the page using `CSS`.
 
-## 5. **Root Colors and Variables:**
+## 6. **Root Colors and Variables:**
 In this step, you'll define a set of root-level CSS variables for colors that will be used throughout your stylesheet, making it easier to maintain and update your color scheme.
 
 - [ ] Open your `styles.css` file and add the following code.
@@ -144,7 +144,7 @@ In this step, you'll define a set of root-level CSS variables for colors that wi
 **Explanation:**
 At the top of the `styles.css` file, you'll see the `:root` selector. This is where CSS variables are defined. These variables store color values that are used throughout the styles. Each variable is prefixed with `--`, and you can use these variables later in your CSS by referring to them with `var(--variable-name)`.
 
-## 6. **Applying Body Styles:**
+## 7. **Applying Body Styles:**
 In this step, you'll apply styles to the body element to set up the overall layout and appearance of the webpage.
 
 - [ ] Open your `styles.css` file and add the following code next.
@@ -166,7 +166,7 @@ body {
 **Explanation:**
 The body styles use Flexbox to center the content both horizontally and vertically, set a neutral gray background, and apply a clean, readable font. This approach ensures the page content is balanced and visually appealing within the viewport.
 
-## 7. **Styling the Header:**
+## 8. **Styling the Header:**
 In this step, you'll style the main heading of the page using the .title class to make it prominent and visually aligned with the overall design.
 
 - [ ] Open your `styles.css` file and add the following code next.
@@ -183,7 +183,7 @@ In this step, you'll style the main heading of the page using the .title class t
 **Explanation:**
 The .title class styles the main heading with a large font size, centered alignment, and white color from the root variables. This ensures the title stands out and is consistent with the page's color scheme, enhancing the visual impact of the heading.
 
-## 8. **Setting Up the Grid Container**
+## 9. **Setting Up the Grid Container**
 In this step, you'll set up the grid container using the .container class to organize the layout of your webpage into a structured grid.
 
 - [ ] Open your `styles.css` file and add the following code next.
@@ -204,7 +204,7 @@ In this step, you'll set up the grid container using the .container class to org
 **Explanation:**
 The .container class creates a grid layout with four columns and three rows, ensuring even spacing and alignment of grid items. The grid-template-columns and grid-template-rows properties define the grid structure, while max-width prevents the container from becoming too wide on large screens, maintaining a balanced and organized layout.
 
-## 8. **Styling the Boxes:**
+## 10. **Styling the Boxes:**
 In this step, you'll apply styles to the grid boxes, including padding, rounded corners, centered text, and unique background colors for each box.
 
 - [ ] Open your `styles.css` file and add the following lines of CSS code.
@@ -239,7 +239,7 @@ In this step, you'll apply styles to the grid boxes, including padding, rounded 
 **Explanation:**
 The .box class styles each grid box with padding, rounded corners, and centered content using Flexbox. It also includes a smooth hover effect. Each box is assigned a unique background color from the defined CSS variables, ensuring a cohesive and visually appealing design.
 
-## 9. **Special Box Styles:**
+## 11. **Special Box Styles:**
 In this step, you'll apply special styles to specific boxes, allowing them to span multiple rows or columns within the grid layout.
 
 - [ ] Open your `styles.css` file and add the following lines of CSS code.
@@ -265,7 +265,7 @@ In this step, you'll apply special styles to specific boxes, allowing them to sp
 **Explanation:**
 The large-vertical, large-horizontal, and .box7 classes adjust the grid positioning of certain boxes, enabling them to span across multiple rows or columns. This breaks the grid's uniformity, creating a more dynamic and visually engaging layout that highlights specific elements.
 
-## 10. **Hover Effect:**
+## 12. **Hover Effect:**
 In this step, you'll add a hover effect to the grid boxes, making them slightly scale up when hovered over.
 
 - [ ] Open your `styles.css` file and add the following code next.
@@ -281,7 +281,7 @@ The `box:hover` style introduces a hover effect that slightly scales up the boxe
 
 
 
-## 11. **First Media Query (max-width: 1424px)**
+## 13. **First Media Query (max-width: 1424px)**
 Media queries are used to make the layout responsive, adjusting the grid and box sizes based on the screen width.
 
 - [ ] Open your `styles.css` file and add the following code next.
@@ -318,7 +318,7 @@ Media queries are used to make the layout responsive, adjusting the grid and box
 **Explanation**
 This media query adjusts the layout for screens smaller than 1424px, reducing the grid to two columns and five rows. It also ensures that boxes span appropriately within the reduced layout, and slightly decreases the font size for better readability on smaller screens.
 
-## 12. **Second Media Query (max-width: 868px)**
+## 14. **Second Media Query (max-width: 868px)**
 
 - [ ] Open your `styles.css` file and add the following code next.
 
@@ -349,7 +349,7 @@ This media query adjusts the layout for screens smaller than 1424px, reducing th
 **Explanation**
 For screens smaller than 868px, this media query switches the layout to a flexbox-based vertical stack. It orders the boxes to ensure a logical flow when stacked and further reduces the font size to maintain readability.
 
-## 13. **Third Media Query (max-width: 480px)**
+## 15. **Third Media Query (max-width: 480px)**
 
 - [ ] Open your `styles.css` file and add the following code next.
 
@@ -388,12 +388,12 @@ For screens smaller than 868px, this media query switches the layout to a flexbo
 **Explanation**
 This media query is designed for mobile devices with screens smaller than 480px. It retains the flexbox layout, further reduces font size, and adds more padding inside the boxes to maintain a clean, readable appearance.
 
-## 14. **Testing Your Layout**
+## 16. **Testing Your Layout**
 
 - [ ] Open your `index.html` file in the browser.
 - [ ] Resize the Browser Window: Gradually resize your browser window from full screen down to a smaller width, observing how the layout changes at different breakpoints (1424px, 868px, and 480px). The content should adjust accordingly, with the grid layout transforming into a vertical stack on smaller screens.
 
-## 15. **Commit and Push to Github**
+## 17. **Commit and Push to Github**
  - [ ] Commit and push your work to Github.
 
  # Conclusion 📄
