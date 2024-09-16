@@ -29,9 +29,9 @@ ColorfulResponsiveBoxes/
 ## 2. **Build the HTML Structure**
 Set up the basic HTML structure as needed for the project, 
 
-- [ ] Open `index.html`** and start by adding the basic HTML boilerplate code below. This includes the `DOCTYPE`, `html`, `head`, and `body` tags.
-- [ ] Add a title** in the `<head>` section as seen below.
-- [ ] Finallylink the `styles.css` file using the `<link>` tag.
+- [ ] Open `index.html` and start by adding the basic HTML boilerplate code below. This includes the `DOCTYPE`, `html`, `head`, and `body` tags.
+- [ ] Add a **title** in the `<head>` section as seen below.
+- [ ] Finally link the `styles.css` file using the `<link>` tag.
 
 ```html
 <!DOCTYPE html>
