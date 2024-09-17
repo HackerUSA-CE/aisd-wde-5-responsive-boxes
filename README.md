@@ -3,7 +3,7 @@
 ![Screenshot of the finished webpage](./assets/images/example.png)
 
 ## Description 📄
-In this assignment, we will work together to build colorful boxes using `html` and `css` and use three different `@media` queries along with `CSS Grid` to create a responsive layout. These queries will adjust the layout and appearance of the boxes based on different screen sizes, helping you understand how to create flexible and adaptable designs.
+In this assignment, you will work to build colorful boxes using `html` and `css` and use three different `@media` queries along with `CSS Grid` to create a responsive layout. These queries will adjust the layout and appearance of the boxes based on different screen sizes, helping you understand how to create flexible and adaptable designs.
 
 Follow the steps in the provided HTML and CSS below to complete the assignment.
 
@@ -27,11 +27,11 @@ ColorfulResponsiveBoxes/
 ### You are now ready to begin coding your colorful responsive boxes!
 
 ## 2. **Build the HTML Structure**
-We will set up the basic HTML structure as needed for the project, 
+Set up the basic HTML structure as needed for the project, 
 
-- [ ] Open `index.html`** and start by adding the basic HTML boilerplate code below. This includes the `DOCTYPE`, `html`, `head`, and `body` tags.
-- [ ] Add a title** in the `<head>` section as seen below.
-- [ ] Finallylink the `styles.css` file using the `<link>` tag.
+- [ ] Open `index.html` and start by adding the basic HTML boilerplate code below. This includes the `DOCTYPE`, `html`, `head`, and `body` tags.
+- [ ] Add a **title** in the `<head>` section as seen below.
+- [ ] Finally link the `styles.css` file using the `<link>` tag.
 
 ```html
 <!DOCTYPE html>
@@ -66,7 +66,7 @@ This code adds a header element to the body of the HTML document with a class `t
 
 
 ## 4. **Set up the container** 
-Now we will add code for our main web page content.
+Now add the code for our main web page content.
 
 - [ ] Create a `<div>` with the class `container` inside the `<body>` tags after the `<h1>` header tag. 
 - [ ] Inside this container, create nine more `<div>` elements, each representing a box. Assign appropriate classes and labels to each box as shown below:
@@ -118,7 +118,7 @@ You should see a basic layout with 9 text elements representing the boxes as see
  ![Screenshot of the finished webpage](./assets/images/example2.png)
  ##
 
-### We will now style the page using `CSS`.
+### Now style the page using `CSS`.
 
 ## 6. **Root Colors and Variables:**
 In this step, you'll define a set of root-level CSS variables for colors that will be used throughout your stylesheet, making it easier to maintain and update your color scheme.
@@ -397,7 +397,7 @@ This media query is designed for mobile devices with screens smaller than 480px.
  - [ ] Commit and push your work to Github.
 
  # Conclusion 📄
-In this project, we built a responsive webpage featuring colorful boxes arranged in a grid layout using HTML, CSS, and media queries. We started by setting up the basic HTML structure, defined root-level color variables, and applied styles to the body, header, and boxes. We then used CSS Grid and Flexbox to create a dynamic and adaptable layout that adjusts to different screen sizes with the help of three media queries.
+In this project, you built a responsive webpage featuring colorful boxes arranged in a grid layout using HTML, CSS, and media queries. You started by setting up the basic HTML structure, defined root-level color variables, and applied styles to the body, header, and boxes. You then used CSS Grid and Flexbox to create a dynamic and adaptable layout that adjusts to different screen sizes with the help of three media queries.
 
 ##
 
